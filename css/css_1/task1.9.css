@@ -1,0 +1,30 @@
+h1{
+    font-weight: bold;
+    color:olivedrab ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.header {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+#boss{
+    color: brown;
+    background-color: aqua;
+}
+#first_div{
+    background-color: rgb(217, 239, 241);
+}
+#sec_div{
+    background-color:pink ;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}

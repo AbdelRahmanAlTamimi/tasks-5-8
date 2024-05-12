@@ -1,0 +1,21 @@
+h1{
+    color: yellowgreen;
+    background-color: blue;
+}
+
+#FontColor {
+color: red;
+}
+#FontStyle{
+    font-style: italic;
+}
+
+img , iframe
+{
+    height: 315px;
+    width: 420px;
+}
+
+h3{
+    color: green;
+}

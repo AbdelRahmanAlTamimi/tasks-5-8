@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+#header{
+    color: red;
+}
+
+img{
+    border: 5px solid green;
+    border-radius: 50%;
+    height: 100px;
+    width: 70px;
+}
+
+#first_div{
+    background-color: gray;
+}
+#sec_div{
+background-color: green;
+}

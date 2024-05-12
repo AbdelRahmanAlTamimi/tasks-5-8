@@ -1,0 +1,30 @@
+
+form{
+    border-style: outset;
+    height: 300px;
+    width: 300px;
+    border-color: silver;
+    background-color: rgb(251, 229, 187);
+}
+h1 {
+    color: white;
+    background-color:rgb(191, 99, 96) ;
+    text-align: center;
+    margin: 10px;
+}
+.box{
+    display: block;
+    margin: 10px;
+    border-style: hidden;
+    width: 275px;
+    height: 30px;
+}
+
+#submit{
+    background-color: rgb(294, 217, 73);
+    margin: 10px;
+    text-align: center;
+    width: 275px;
+    height: 30px;
+    
+}

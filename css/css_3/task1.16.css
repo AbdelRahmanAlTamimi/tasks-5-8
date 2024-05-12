@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: brown;
+}
+#blue{
+    background-color: aqua;
+}
+#purple{
+    background-color: purple;
+}
+
+#red{
+    background-color: red;
+}
+
+span.a{
+    border: 2px solid black;
+    padding: 5px 20px;
+    
+    margin: 10px;
+    
+}
