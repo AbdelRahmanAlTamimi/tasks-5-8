@@ -1,0 +1,17 @@
+body {
+    border: 5px solid orange;
+    display: flex;
+    /* flex-flow: column wrap; */
+    
+    flex-direction: column ;
+}
+
+div {
+    
+    padding: 5px;
+    text-align: center;
+    /* width: 10px; */
+ 
+}
+
+

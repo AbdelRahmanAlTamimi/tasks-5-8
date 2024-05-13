@@ -1,0 +1,10 @@
+.parent {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.a {
+    
+    margin: 10px;
+}

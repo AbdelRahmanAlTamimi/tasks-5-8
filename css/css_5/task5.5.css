@@ -1,0 +1,22 @@
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.a {
+    color: white;
+    background-color: dodgerblue;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+
+}
+.b {
+    color: white;
+    background-color: dodgerblue;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+
+}
