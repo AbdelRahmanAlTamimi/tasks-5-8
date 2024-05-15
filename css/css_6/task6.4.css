@@ -1,0 +1,25 @@
+.main {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    gap: 10px 10px;
+}
+
+.main div {
+    
+    padding: 20px;
+
+}
+img {
+    position: relative;
+}
+span {
+    background-color: white;
+    color: red;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 2;
+    padding: 3px;
+
+}

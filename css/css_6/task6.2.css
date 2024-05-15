@@ -1,0 +1,12 @@
+.main {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px 10px;
+}
+
+.main div {
+    background-color: blueviolet;
+    padding: 20px;
+
+}

@@ -1,0 +1,23 @@
+.main {
+    border: 2px solid cornflowerblue;
+    width: 90vw;
+    height:150px ;
+    padding: 3px;
+}
+.p {
+    display: grid;
+    border: 2px solid cornflowerblue;
+    width: 89vw;
+    height:120px ;
+    margin: 2px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content:space-between;
+}
+
+.p div {
+    background-color:cornflowerblue  ;
+    text-align: center;
+    padding: 2px 10px;
+    margin: auto ;
+}

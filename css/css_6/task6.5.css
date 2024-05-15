@@ -1,0 +1,42 @@
+.main {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px 5px;
+}
+
+.main div {
+
+    padding: 20px;
+
+}
+
+.a {
+    background-color: aqua;
+    grid-row: span 3;
+    grid-column: span 3;
+}
+
+.b {
+    background-color: red;
+    grid-column: span 3;
+}
+.c {
+    background-color: blue;
+    grid-area: 4 /1/6/4 ;
+
+}
+.d {
+    background-color: rgb(47, 222, 105);
+    grid-row: span 4;
+    grid-column: span 2;
+}
+.e {
+    background-color: gold;
+    grid-row: span 2;
+}
+.f {
+    background-color: skyblue;
+    grid-row: span 2;
+}

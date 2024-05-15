@@ -1,0 +1,30 @@
+.page {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: (2,1fr);
+    gap: 10px;
+}
+
+.card {
+    border: 3px solid black;
+border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width:fit-content;
+    height: fit-content;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+border-radius: 25px;
+}
+
+input {
+    background-color: olivedrab;
+    align-self: center;
+    width: 100%;
+    border-radius: 25px;
+    
+}

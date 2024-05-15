@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+
+
+
+
+.page {
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px 50px auto 50px;
+    grid-template-areas:
+        "logo logo logo logo logo logo logo logo logo logo"
+        "side side nav nav nav nav nav nav nav nav"
+        "side side cont cont cont cont cont cont cont cont"
+        "foot foot foot foot foot foot foot foot foot foot";
+}
+
+
+
+h2 {
+    grid-area: logo;
+    background-color: rgb(250, 223, 83);
+    color: white;
+    border-radius: 10%;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(100, 218, 251);
+    color: white;
+    border-radius: 10%;
+}
+
+section {
+    grid-area: cont;
+    background-color: rgb(191, 202, 221);
+    color: white;
+    border-radius: 10%;
+}
+
+aside {
+    grid-area: side;
+    background-color: rgb(238, 127, 94);
+    color: white;
+}
+
+footer {
+    grid-area: foot;
+    background-color: rgb(58, 63, 76);
+    color: white;
+}
